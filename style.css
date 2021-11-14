@@ -1,0 +1,52 @@
+<style type="text/css">
+.name {
+	text-decoration:underline ;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+p{
+	font-size: 13px;
+	
+}
+
+*{
+	font-family: 'Yuji Syuku', serif;
+}
+li{
+	font-family: Arial;
+}
+body{
+	background-color: teal;
+	
+}
+a {color: mediumpurple;
+}
+
+/*#myVideo {
+  	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+}
+
+.page2 {
+  	position: absolute;
+  	bottom: 0;
+  	background: rgba(0, 0, 0, 0.5);
+  	color: #f1f1f1;
+  	width: 100%;
+  	padding: 20px;
+  	justify-content: space-between;
+}*/
+
+
+
+
+/*@media (min-width:  800px{
+	p{
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+
+}*/
