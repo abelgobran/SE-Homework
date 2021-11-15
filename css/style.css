@@ -1,0 +1,88 @@
+<style type="text/css">
+.name {
+	text-decoration:underline ;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+p{
+	font-size: 13px;
+	
+}
+
+*{
+	font-family: 'Yuji Syuku', serif;
+}
+li{
+	font-family: Arial;
+}
+body{
+	background-color: teal;
+	
+}
+a {color: mediumpurple;
+}
+.videotitle{
+	color: lightyellow;
+	}
+.category{
+	color: lightyellow;
+	background-color: salmon;
+}
+#intro{
+	color: goldenrod;
+}
+#enjoylist{
+	color: peru;
+}
+#floormat{
+	background-color: salmon;
+}
+#table1{
+	background-color: darksalmon;
+}
+#navbar{
+	background-color: salmon;
+
+}
+#feedbackform{
+	padding: 15px;
+	background-color: lightcyan;
+	border-style: groove;
+	font-family: 'Yuji Syuku', serif;
+
+}
+#button2{
+	font-size: 20px;
+	font-style: bold;
+	color: salmon;
+	background-color: gray;
+	padding: 10px;
+}
+
+/*#myVideo {
+	
+  	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+}*/
+
+.page2 {
+  	bottom: 0;
+  	background: rgba(0, 0, 0, 0.5);
+  	color: #f1f1f1;
+  	width: 100%;
+  	padding: 20px;
+  	justify-content: space-between;
+}
+
+
+
+/*@media (min-width:  800px{
+	p{
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+
+}*/

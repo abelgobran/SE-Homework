@@ -2,30 +2,45 @@
 <html>
 <head>
 	<title>Software Engineering</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 	<h2 class="name">Abel Gobran</h2>
-	<nav>
+	
+	<div id="navbar">
+		<nav>
 		<a href="index.html">Home</a>
-		<a href="page2.html">More about Me</a>
-	</nav>
+		<a href="html/page2.html">More about Me</a>
+		<a href="html/feedback.html">Feedback</a>
+		</nav>
+	</div>
 
 	<h3>_Welcome_</h3>
-	<p> Hello Everyone, Im so excited class is starting soon! I live in Cincinnati and enjoy outdoor activities in my spare time. I currently work on cars and would like to change to a tech career.I am here today to learn to code!</p>
+	<p id="intro"> Hello Everyone, Im so excited class is starting soon! I live in Cincinnati and enjoy outdoor activities in my spare time. I currently work on cars and would like to change to a tech career.I am here today to learn to code!</p>
 	
 	<a href="https://www.instagram.com/p/CUvBL1HFpnkiX_1pAHkcfjcRzufnEWi__s_co40/?utm_medium=copy_link">
 
-		<img src="20150412_145615.jpg" style="width:450px;height:200px;" border=5px;>
+		<img src="images/20150412_145615.jpg" style="width:450px;height:200px;" border=5px;>
 	</a>
 
-	<h2>Things I enjoy doing...</h2>
-	<ul>
-		<li>Exploring</li>
-		<li>Horseback riding</li>
-		<li>Drinking Coffee</li>
-	</ul>
+	<div class="category">
+		<h2>Things I enjoy doing...</h2>
+	</div>
+		<ul id="enjoylist">
+			<li>Exploring</li>
+			<li>Horseback riding</li>
+			<li>Drinking Coffee</li>
+		</ul>
+
+		<br><br>
+
+	<form>
+		<h4>Enter your email to receive updates</h4>
+		<input type="email" name="Email">
+		<input type="button" name="Submit" value="submit">
+	</form>
+
 
 	<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
